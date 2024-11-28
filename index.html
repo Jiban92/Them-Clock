@@ -1,0 +1,38 @@
+<!-- This is the structure file for this project created using HTML5 for giving the well format or structure to this project.... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This is the header part where all the necessary tags and information for this web-app are written... -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Drawing_App</title>
+  </head>
+  <body>
+
+    <!-- This is the body part for this project where all the formats are written... -->
+
+    <!-- This is the canvas container where the paint is gonna happen... -->
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <!-- This is the toolbox container where all tools for the canvas app are there... -->
+    <div class="toolbox">
+      <!-- These are the relevant buttons for the doing the paint in the canvas... -->
+      <button id="decrease">-</button>
+      <span id="size">10</span>
+      <button id="increase">+</button>
+      <input type="color" id="color" />
+      <button id="clear">X</button>
+    </div>
+
+    <!-- This is the external link for the script file... -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+/* This is the styling sheet which is written using CSS3 for designing this web-app... */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Young serif";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* This is the general stylings for the complete web-app... */
+
+/* This is for the whole canvas screen... */
+canvas {
+  border: 2px solid steelblue;
+}
+
+
+/* This is the stylings for the toolbox... */
+.toolbox {
+  background-color: steelblue;
+  border: 1px solid slateblue;
+  width: 803px;
+  display: flex;
+}
+
+
+/* This is for targeting all direct children of the element with the class toolbox */
+.toolbox > * {
+  background-color: #fff;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+
+/* This is for targeting the last children of the element with the class toolbox */
+.toolbox > *:last-child {
+  margin-left: auto;
+}
